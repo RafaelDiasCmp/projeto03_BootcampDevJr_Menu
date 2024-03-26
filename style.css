@@ -1,0 +1,241 @@
+body {
+    background-color: #C5C1C0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 650px;
+
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+h2 {
+    text-align: center;
+    font-size: 17px;
+    font-weight:550;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+input {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container {
+    width: 700px;
+    
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFFFFF;
+
+    border-radius: 10px;
+}
+
+.home-images {
+    
+    width: 700;
+    align-items: center;
+    margin: auto;
+
+}
+
+.principal {
+    width: 650px;
+
+    background-color: #F5F5F5;
+
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0.2px rgb(117, 117, 117);
+
+    text-align: center;
+    margin: auto;
+    
+}
+.dishes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dishes img {
+    width: 100%;
+    
+    display: inline;
+
+
+    max-width:150px;
+    max-height:500px;
+
+}
+
+.bife {
+        
+    margin-left: 40px;
+        
+    width: 25%;
+        
+    height: 100%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+
+.coxa {
+    margin-left: 40px;
+        
+    width: 25%;
+    height: 100%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+.panela {
+    margin-left: 40px;
+        
+    width: 25%;
+        
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+
+.secondary {
+    width: 650px;
+
+    background-color: #F5F5F5;
+
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0.2px rgb(117, 117, 117);
+
+    text-align: center;
+    margin: auto;
+
+    margin-top: 30px;
+}
+
+.side-dishes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-dishes img {
+    width: 100%;
+    
+    display: inline;
+
+
+    max-width:150px;
+    max-height:500px;
+}
+.farofa {
+        
+    margin-left: 40px;
+        
+    width: 25%;
+        
+    height: 100%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+
+.salad {
+    margin-left: 40px;
+        
+    width: 25%;
+    height: 100%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+.torresmo {
+    margin-left: 40px;
+        
+    width: 25%;
+        
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+    margin-bottom: 30px;
+    
+}
+
+.personal-data {
+    width: 650px;
+    height: 300px;
+
+    background-color: #F5F5F5;
+
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0.2px rgb(117, 117, 117);
+
+    text-align: center;
+    margin: auto;
+
+    margin-top: 30px;
+
+}
