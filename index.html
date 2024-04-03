@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quantidade.css">
 </head>
 <body>
     <div class="container">
@@ -25,14 +26,46 @@
                      <div>
                 <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
                      </div>
+                
                 <div class="dishes">
                 
-                    <div class="bife"><img src="bife.jpg" alt="Bife com Batata"></div>
+                    <div class="bife"><img src="bife.jpg" alt="Bife com Batata">
+                        <h2>Bife com Batata <br>
+                        <span>R$30,00</span></h2>
+
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
+                        </div>
                 
-                        <div class="coxa"><img src="coxa.jpg" alt="Coxa de Frango Crocante"></div>
-                
-                            <div class="panela"><img src="panela.jpg" alt="Carne de Panela"></div>
-            </div>
+                        <div class="coxa"><img src="coxa.jpg" alt="Coxa de Frango Crocante">
+                            <h2 style="margin: auto;">Coxa de Frango Crocante
+                            <span>R$25,00</span></h2>
+                            
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
+
+                        </div>
+                            
+                            <div class="panela"><img src="panela.jpg" alt="Carne de Panela">
+                                <h2 style="margin: auto;">Carne de Panela
+                                <span>R$22,00</span></h2>
+
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                        class="input-text qty text" size="4" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </div>
+                            </div>
+                </div>
         </div>
         
         <div class="secondary">
@@ -41,15 +74,45 @@
                         </div>
                         
                         <div>
-                        <p>Porções para uma pessoa - Subtítulo</p>
+                        <p>Porções para uma pessoa</p>
                     </div>
                     <div class="side-dishes">
                 
-                        <div class="farofa"><img src="farofa.jpg" alt="Bife com Batata"></div>
+                        <div class="farofa"><img src="farofa.jpg" alt="Farofa">
+                            <h2>Farofa <br>
+                            <span>R$10,00</span></h2>
+
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
+                        </div>
                     
-                            <div class="salad"><img src="salad.jpg" alt="Coxa de Frango Crocante"></div>
+                            <div class="salad"><img src="salad.jpg" alt="Salada">
+                                <h2>Salada <br>
+                                <span>R$ 8,00</span></h2>
+
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                        class="input-text qty text" size="4" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </div>
+                            </div>
                     
-                                <div class="torresmo"><img src="torresmo.jpg" alt="Carne de Panela"></div>
+                            <div class="torresmo"><img src="torresmo.jpg" alt="Torresmo">
+                                    <h2>Torresmo <br>
+                                    <span>R$12,00</span></h2>
+
+                                    <div class="quantity buttons_added">
+                                        <input type="button" value="-" class="minus">
+                                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                            class="input-text qty text" size="4" pattern="" inputmode="">
+                                        <input type="button" value="+" class="plus">
+                                    </div>
+                            </div>
                 </div>
 
                 
@@ -61,9 +124,9 @@
                  <h2>Dados Pessoais</h2>
             </div>
                 
-                <input type="text" placeholder="Digite seu nome">
-                    <input type="tel" placeholder="Digite seu número"/>
-                <input type="email" placeholder="Digite seu email"/>
+                <input class="input1" type="text" placeholder="Digite seu nome">
+                    <input class="input1" type="tel" placeholder="Digite seu número"/>
+                <input class= "input1" type="email" placeholder="Digite seu email"/>
             
         </div>
         

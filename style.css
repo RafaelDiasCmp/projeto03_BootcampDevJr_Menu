@@ -19,27 +19,15 @@ h2 {
     font-size: 15px;
     font-weight:550;
 }
+span {
+    font-size: 20px;
+    color: #2C745A;
+}
 p {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-bottom: 35px;
 
-}
-
-input {
-    display: flex;
-    margin: auto;
-    
-    width: 600px;
-    margin-bottom:25px;
-
-    padding: 8px;
-    
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
-input:focus {
-    background-color: #E8EFFF;
 }
 
 button {
@@ -98,6 +86,7 @@ button {
     width: 100%;
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -126,36 +115,36 @@ button {
         
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
-
-    border-bottom: 70px solid rgb(255, 255, 255);
+    border-bottom: 20px;
 
     margin-bottom: 30px;
-    
+
+    flex-direction: column; 
 }
 
 .coxa {
     margin-left: 40px;
         
     width: 25%;
-    height: 100%;
+    height: 329px;
         
     display: flex;
     justify-content: center;
     align-items: center;
+    
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
 
-    border-bottom: 70px solid rgb(255, 255, 255);
-
     margin-bottom: 30px;
     
+    flex-direction: column; 
 }
 .panela {
     margin-left: 40px;
         
     width: 25%;
-        
-    height: 100%;
+    height: 329px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,9 +152,9 @@ button {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
 
-    border-bottom: 70px solid rgb(255, 255, 255);
-
     margin-bottom: 30px;
+
+    flex-direction: column; 
     
 }
 
@@ -213,9 +202,9 @@ button {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
 
-    border-bottom: 70px solid rgb(255, 255, 255);
-
     margin-bottom: 30px;
+
+    flex-direction: column; 
     
 }
 
@@ -231,9 +220,9 @@ button {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
 
-    border-bottom: 70px solid rgb(255, 255, 255);
-
     margin-bottom: 30px;
+
+    flex-direction: column; 
     
 }
 .torresmo {
@@ -249,9 +238,9 @@ button {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
 
-    border-bottom: 70px solid rgb(255, 255, 255);
-
     margin-bottom: 30px;
+
+    flex-direction: column; 
     
 }
 
@@ -270,4 +259,21 @@ button {
     margin-top: 30px;
     margin-bottom: 15px;
 
+}
+
+.input1 {
+    display: flex;
+    margin: auto;
+    
+    width: 600px;
+    margin-bottom:25px;
+
+    padding: 8px;
+    
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+input:focus {
+    background-color: #E8EFFF;
 }
