@@ -31,7 +31,7 @@ p {
 }
 
 button {
-    width: 650px;
+    width: 620px;
     margin: auto;
 
     padding: 10px;
@@ -43,6 +43,8 @@ button {
     box-shadow: 0 0 0 0;
     border: 0 none;
     border-radius: 5px;
+
+    margin-bottom: 10px;
     
     outline: 0;
 
@@ -246,7 +248,7 @@ button {
 
 .personal-data {
     width: 650px;
-    height: 200px;
+    height: auto;
 
     background-color: #F5F5F5;
 
@@ -260,6 +262,15 @@ button {
     margin-bottom: 15px;
 
 }
+
+#output {
+    margin-left: 20px;
+    text-align: left;
+    
+    font-size: 14px;
+    margin: 20px;
+}
+
 
 .input1 {
     display: flex;
@@ -276,4 +287,6 @@ button {
 }
 input:focus {
     background-color: #E8EFFF;
+    text-align: left;
 }
+
